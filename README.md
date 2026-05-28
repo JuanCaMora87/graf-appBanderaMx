@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Instituto Tecnologico de Pachuca
 ## Materia: Graficación 
 ## Tema 1.4 Práctica integradora Bandera de México
@@ -63,3 +64,6 @@ Si se desea aumentar el tamaño del escudo manteniendo su proporción, se puede 
 }
 
  
+=======
+# graf-appBanderaMx
+>>>>>>> d02c8165ba3223f80c9a551c2b6e19305f2f1b55
