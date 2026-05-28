@@ -1,69 +1,79 @@
 <<<<<<< HEAD
-# Instituto Tecnologico de Pachuca
-## Materia: Graficación 
-## Tema 1.4 Práctica integradora Bandera de México
-## Autor: Alexander Jahaziel Farias Villa
-###  Fecha: 15 de Febrero de 2026
 
-## Prompt 1 – Creación de la estructura base
+# Instituto Tecnológico de Pachuca
 
-Genera una aplicación web utilizando tres archivos separados:  
-- index.html  
-- style.css  
-- script.js  
+## Materia: Graficación
 
-La aplicación debe mostrar la bandera de México utilizando tres columnas verticales (verde, blanco y rojo).  
-El diseño debe realizarse con Flexbox para que la bandera esté centrada en la pantalla.
+## Tema: 1.4 Práctica Integradora – Bandera de México
+
+## Autor: Juan Carlos Mora Cisneros
+
+### Fecha: 19 de mayo de 2026
 
 ---
 
-## Prompt 2 – Agregar controles de manipulación de color
+# Prompt 1 – Creación de la estructura principal
 
-Agrega dos controles tipo slider (input type="range"):  
+Desarrolla una aplicación web utilizando tres archivos separados:
 
-- Uno para manipular dinámicamente el color verde.
-- Uno para manipular dinámicamente el color rojo.
+* `index.html`
+* `style.css`
+* `script.js`
 
-Cada control debe actualizar el color correspondiente en tiempo real utilizando JavaScript y mostrar el código hexadecimal actualizado debajo del slider.
+La aplicación debe mostrar la bandera de México utilizando tres franjas verticales con los colores:
 
----
+* Verde
+* Blanco
+* Rojo
 
-## Prompt 3 – Diseño visual con CSS
-
-Aplica estilos en style.css para:
-
-- Centrar el contenido en la página.
-- Definir el tamaño y proporción de la bandera.
-- Establecer los colores iniciales:
-  - Verde
-  - Blanco
-  - Rojo
-- Alinear los controles horizontalmente en la parte superior.
-- Agregar un footer con el nombre del alumno y número de control debajo de la bandera.
+El diseño debe implementarse utilizando Flexbox para mantener la bandera centrada en la pantalla.
 
 ---
 
-## Prompt 4 – Agregar el Escudo Nacional
+# Prompt 2 – Controles para manipular colores
 
-Insertar el escudo nacional de México en la columna blanca utilizando una imagen local llamada:
+Agregar dos controles deslizantes (`input type="range"`):
 
-escudo.png
+* Uno para modificar dinámicamente el color verde.
+* Uno para modificar dinámicamente el color rojo.
 
-La imagen debe estar centrada vertical y horizontalmente utilizando Flexbox.
+Cada control debe actualizar el color en tiempo real mediante JavaScript y mostrar debajo el código hexadecimal correspondiente.
 
 ---
 
-## Prompt 5 – Ajuste de tamaño del escudo
+# Prompt 3 – Diseño visual con CSS
 
-Si se desea aumentar el tamaño del escudo manteniendo su proporción, se puede aplicar en CSS:
+Aplicar estilos en `style.css` para:
+
+* Centrar el contenido de la página.
+* Definir el tamaño y proporciones de la bandera.
+* Configurar los colores iniciales:
+
+  * Verde
+  * Blanco
+  * Rojo
+* Alinear los controles horizontalmente en la parte superior.
+* Agregar un footer con el nombre del alumno y número de control debajo de la bandera.
+
+---
+
+# Prompt 4 – Incorporación del Escudo Nacional
+
+Insertar el escudo nacional de México en la sección blanca utilizando una imagen local llamada:
+
+`escudo.png`
+
+La imagen debe mantenerse centrada vertical y horizontalmente utilizando Flexbox.
+
+---
+
+# Prompt 5 – Ajuste del tamaño del escudo
+
+Para aumentar el tamaño del escudo sin perder su proporción, se puede utilizar la siguiente regla CSS:
 
 ```css
 .blanco img {
     width: 220px;
     height: auto;
 }
-
- 
-=======
-# graf-appBanderaMx
->>>>>>> d02c8165ba3223f80c9a551c2b6e19305f2f1b55
+```
